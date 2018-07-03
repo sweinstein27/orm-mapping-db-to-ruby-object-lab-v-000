@@ -97,6 +97,7 @@ class Student
 
 
   def self.all_students_in_grade_X(input)
+    binding.pry
     sql = <<-SQL
     SELECT *
     FROM students
