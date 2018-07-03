@@ -89,7 +89,7 @@ class Student
     SELECT *
     FROM students
     WHERE grade = 10
-    LIMIT input.to_i
+    LIMIT = input 
     SQL
 
     DB[:conn].execute(sql)
